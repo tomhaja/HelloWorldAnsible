@@ -44,6 +44,11 @@ reading  https://www.digitalocean.com/community/tutorials/how-to-configure-apach
     - testing connection with ping ---> fails because ping is not allowed to  185.128.119.192
     - testing ssh - fails because "Permission denied (publickey)."
 - next ToDo SSH Key am ansible server einrichten --> failed
+ssh -i ansiblePrivate.ppk ubuntu@185.128.119.192 -- Enter passphrase for key 'ansiblePrivate.ppk':
+Enter passphrase for key 'ansiblePrivate.ppk':
+Enter passphrase for key 'ansiblePrivate.ppk':
+Permission denied (publickey).
+wieso will der hier ein Passwort???
 
 --> 16:51 Abbruch der Versuche eine SSH connection auf 185.128.119.192 zu erstellen
 
@@ -51,5 +56,7 @@ reading  https://www.digitalocean.com/community/tutorials/how-to-configure-apach
 17:00 beginn der ansible Configuration 
 
 
-6. Hallo world auf Webserver ausgeben 
-7. Unit Test mit Ansible erstellen
+6. Hallo world auf Webserver ausgeben --> nicht geschafft
+7. Unit Test mit Ansible erstellen --> nicht geschafft
+
+8. Download der Configuration + Auffrischen(Aussehen und Rechtschreibung) der Dokumentation
