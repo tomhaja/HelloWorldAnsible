@@ -54,7 +54,9 @@ wieso will der hier ein Passwort???
 
 5. Ansible Playbook erstellen, einrichten
 17:00 beginn der ansible Configuration 
+- einrichtung der Files analog dem HowTo:  https://www.digitalocean.com/community/tutorials/how-to-configure-apache-using-ansible-on-ubuntu-14-04
 
+- Dateien liegen mit im Repo im Ordner "ansible-apache"
 
 6. Hallo world auf Webserver ausgeben --> nicht geschafft
 7. Unit Test mit Ansible erstellen --> nicht geschafft
