@@ -33,7 +33,23 @@ User: ubuntu / SSH - Key im Anhang der Mail
 10.1.0.0/24 - ansiblesub
 - how to use Putty with keys?
 - Server refused my key.... 
-- 
+- Entscheidung zum Abbruch mit Ansible Tower und hin zu ubuntu und selbstinstallation
+-13.80.252.100
+--> Install ansible per https://docs.ansible.com/ansible/latest/installation_guide/intro_installation.html
+--> install succeeded
+- Ansible Playbooks: https://github.com/ansible/ansible-examples
+reading  https://www.digitalocean.com/community/tutorials/how-to-configure-apache-using-ansible-on-ubuntu-14-04
+- first config: 
+    - creating ansible cfg and hostsfile 
+    - testing connection with ping ---> fails because ping is not allowed to  185.128.119.192
+    - testing ssh - fails because "Permission denied (publickey)."
+- next ToDo SSH Key am ansible server einrichten --> failed
+
+--> 16:51 Abbruch der Versuche eine SSH connection auf 185.128.119.192 zu erstellen
+
 5. Ansible Playbook erstellen, einrichten
+17:00 beginn der ansible Configuration 
+
+
 6. Hallo world auf Webserver ausgeben 
 7. Unit Test mit Ansible erstellen
